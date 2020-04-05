@@ -1,7 +1,5 @@
 package abstractFactory;
 
-import javax.swing.text.StyledEditorKit.ItalicAction;
-
 public class Main {
 
 	public static void main(String[] args) {
