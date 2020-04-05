@@ -14,6 +14,17 @@ public class Main {
 		
 		System.out.println(huan);
 		System.out.println(jose);
+		
+		Usuario juan = Usuario.Make("Maria", "Lopez")
+				.setMedioContacto(true)
+				.setTelefono("0990 987 654")
+				.setDireccion("Anonimus")
+				.setEmail("maria@gmail.com")
+				.setMetodoPago("Paypal")
+				.setToken("kkkkkkk5555")
+				.Build();
+		
+		System.out.println(juan);
 	}
 
 }
